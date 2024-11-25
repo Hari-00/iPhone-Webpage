@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Login page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet"  href="{{url_for('static', path='logo2.css')}}">
+    </head>
+    <body>
+        <div class="outside">
+            <div class="inside">
+                <div class="top">
+                </div>
+                <div id="logo">
+                    
+                </div>
+                <div class="login">
+                    <h1>Apple Store</h1>
+                    <form id="form" action="/submit" method="post">
+                        <input type="text" name="name" placeholder="UserName">
+                   
+                        <input type="password" name="password" placeholder="password">
+                        <input id="submit" type="submit" value="Enter">
+                        
+                    </form>
+                    
+                    
+                </div>
+                <a id="forgot" href="www">ForgotPassword</a>
+   
+                    <h5 style="margin:10px 0px 0px  70px; color:rgba(255, 0, 0, 0.836)">{{name}}</h5>
+             
+                  
+                <div id="foot">
+                    
+                <a>Not a part of Apple:-</a>
+                <a href="www">Join-us</a>
+            </div>
+                
+
+            </div>
+        
+        </div>
+    </body>
+</html>
